@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Project Milk</title>
+	<link rel="stylesheet" href="../assets/bootstrap.min.css">
+	<link rel="stylesheet" href="../search/style.css">
+	  <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap" rel="stylesheet">
+	<script type="text/javascript" src="../assets/jquery-3.6.4.min.js"></script>
+</head>
+<body>  
+<!-- search bar div -->
+	<div id="search_bar">
+		<select id="search_type_selector">
+			<option value="_id" selected>id</option>
+			<option value="ph">ph</option>
+			<option value="city">city</option>
+			<option value="holder_name">holder</option>
+		</select>
+		<input id="search_box" class="search_box" type="text" placeholder="Search here. . ."/>
+		<button id=search_btn> <img alt="search" src="../assets/search.png"> </button>
+	</div>
+	
+<!-- End of search bar div -->
+	
+<!-- search_bar-result container div -->
+	
+<!-- End of search_bar result container div -->
+	<div id="main-content">
+		<div id="table-message" style="transition:0.4s;">
+			<img src="../assets/search-msg.png" class="table-message-image-search" alt="no record found"/>
+		</div>
+		<table id="table" class="table">
+			<tr id="header">
+				<th>product id</th>
+				<th>ph</th>
+				<th>holder</th>
+				<th>city</th>
+				<th>last update</th>
+				<th>posted</th>
+			</tr>
+		</table>
+	</div>
+
+	<script type="text/javascript" src="../scripts/searchScript.js"></script>
+</body>
+</html>
