@@ -11,8 +11,8 @@ This is a Java dynamic project that allows users to perform various operations. 
 ### Prerequisites
 
 To run this project, you'll need to have `Java version 11` or higher installed on your machine.
-`Tomcat` Server v9
-`Arduino IDE`
+`Tomcat` Server version 9
+Install `Arduino IDE` any version
 
 ### Installation
     --Java Application--
@@ -22,10 +22,11 @@ To run this project, you'll need to have `Java version 11` or higher installed o
 4. Run the program on `Tomcat Server`
 
 ## Usage
-Once the program is running, open your web browser and go to `http://localhost:8080/projectmilk` to access the web interface. Follow the prompts to perform the desired operations on the dynamically generated data structures.
+Once the program is running, open your web browser and go to `http://localhost:8080/projectmilk` to access the web interface.
 
 ## Contributing
 If you'd like to contribute to this project, please fork the repository and create a pull request. 
 
 ## Note
 This repo contain also ardiuno Uno and Esp8266 code your will search and install the required packages and files.
+In `com.pro` packages files need your Database username with password and application id from MongoDB
